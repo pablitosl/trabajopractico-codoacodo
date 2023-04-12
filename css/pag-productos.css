@@ -8,22 +8,40 @@
 h2{
     text-align: center;
     padding: 10px;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Poppins', sans-serif;
 }
 #products{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-top: 20px;
 }
 .product{
-    width: 200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 25px 20px ;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.product-image{
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product-title{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    text-align: center;
+}
+.product-price{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    text-align: center;
 }
