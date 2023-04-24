@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .header{
-    background-color: teal;
+    background-color: rgb(80, 200, 200);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +44,6 @@
     color: rgb(32, 32, 32);
 }
 .menu ul li a:hover{
-    
-    color: rgb(50, 50, 50);
+    color: midnightblue;
+    text-shadow: 1px 1px 10px white;
 }
