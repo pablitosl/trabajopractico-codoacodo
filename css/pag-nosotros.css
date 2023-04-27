@@ -15,3 +15,9 @@ p{
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+.nosotros{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
